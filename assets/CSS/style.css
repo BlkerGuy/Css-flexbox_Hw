@@ -14,17 +14,14 @@
 }
 
 header {
-    /* border: 1px solid red; */
-    padding: 0 150px;
+    padding: 0 100px 0 200px ;
     border-bottom: 2px solid rgba(167, 175, 188, 255);
     box-shadow: 0 4px 6px -6px #222;
-    /* filter: drop-shadow(0px 5px 0px rgba(0, 1, 1, 0.26)); */
 }
 
 header nav img {
-    /* width: 50px; */
-    height: 50px;
-    border: 1px solid yellow;
+    height:50px;
+    width: 120px;
 }
 
 header nav {
@@ -35,8 +32,6 @@ header nav {
 
 header nav .nav-links {
     width: 50%;
-
-    /* border: 1px solid purple; */
     display: flex;
     justify-content: space-between;
 }
@@ -56,36 +51,85 @@ header nav .nav-links ul li,
 header nav .nav-links ul li a {
     text-decoration: none;
     color: black;
-    /* border: 1px solid red; */
-    /* font-family: 'Bebas Neue', cursive; */
     font: 500 25px 'Bebas Neue', cursive;
 }
 
-main section .main-upside{
+main section .main-upside {
     text-align: center;
 }
 
-main section .main-upside h1{
+main section .main-upside h1 {
     margin-top: 25px;
     text-decoration: none;
     font: 200 15px 'Bebas Neue', cursive;
     color: #f0e30c;
 }
-main section .main-upside h2{
+
+main section .main-upside h2 {
     width: 100%;
     font: 200 40px 'Squada One', cursive;
     letter-spacing: -1px;
 }
 
-main section .main-body{
+main section .main-body {
     display: flex;
-    justify-content:space-evenly ;
+    justify-content: space-evenly;
+    padding: 0 100px;
 }
 
-main section .main-body article .article-img img{
-    width: 313px;
-    height: 270px;
+main section article{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
 
+}
+main section .main-body article .article-img {
+    width: 350px;
+    height: 270px;
+}
+main section .main-body article .article-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main section .main-body article .article-text {
+    padding: 25px 25px 15px;
+    border: 1px solid rgba(154, 145, 145, 0.5);
+
+}
+main section .main-body article .article-text span i{
+    color: yellow;
+    padding-right: 10px;
+}
+main section .main-body article .article-text span{
+    color: rgb(103, 105, 108);
+}
+
+main section .main-body article .article-text p {
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid rgba(167, 175, 188, 0.4);
+}
+main section .main-body article .article-text h3{
+    padding-top: 15px;
+    font-family: 'Squada One', cursive;
+}
+main section .main-body article .article-text p{
+    padding-top: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main section .main-body article .article-text p span{
+    color: green;
+}
+
+main section .main-body article .article-text .location-date i{
+    padding-right: 5px;
+    color: #555151bd;
+
+}
+main section .main-body article .article-text .location-date .location i{
+     margin: 40px 0 0 20px;
 }
 
 
