@@ -133,3 +133,6 @@ main section .main-body article .article-text .location-date .location i{
 }
 
 
+.mobile-hamburger{
+    display: none;
+}
