@@ -1,3 +1,10 @@
+@media only screen and (max-width:1200px) {
+    main section .main-body {
+        padding: 0 20px;
+        /* sadece goruntu ucun yazmisam normal ekran 1200px oldgunu bilirem) */
+    }
+}
+
 @media only screen and (max-width:992px) {
     .container {
         margin: auto;
